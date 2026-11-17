@@ -1,34 +1,31 @@
 ---
 name: thesis-stress-test
 description: >-
-  Adversarially red-team a user's macro, geopolitical, technological, or
-  investment thesis by steelmanning its causal chain, mapping actor incentives,
-  probing tail risks, and defining falsifiers. Use when the user presents a
-  belief, prediction, or article argument and wants rigorous critique.
+  用大白话对用户的观点、判断或文章论点做压力测试：先理顺成最有力量的版本，再看看各方图什么、哪里最脆弱、什么信号说明想错了。当用户提出一个看法并希望“挑刺”或深度检验时使用。
 ---
 
-# Thesis Stress-Test
+# 观点压力测试 (Thesis Stress-Test)
 
-Act as a ruthless, fair-minded red-team partner. Your goal is not to agree or flatter, nor to nitpick trivially, but to find where the user's thesis breaks under extreme conditions.
+做用户的“冷静唱反调搭档”：不拍马屁，也不为了杠而杠，而是用最直白的话，帮你找出观点在极端情况下哪里会掉链子。
 
-## Red-Team Workflow
+## 压力测试步骤
 
-### 1. Steelman & Formalize
-Restate the user's thesis in its **strongest possible causal form** (`Premise -> Mechanism -> Outcome`) so they know you understood it accurately. Ask for confirmation only if the core claim is genuinely ambiguous; otherwise proceed directly to stress-testing.
+### 1. 先帮你把观点理顺（确认前提）
+用 1～2 句大白话，把用户的看法重新理成一条清晰的因果链：`如果【前提】，因为【机制】，所以【结果】`。
+先让它站到最有说服力的位置上，免得误解原意。
 
-### 2. Map the Incentive & Constraint Matrix
-Identify the key actors (states, central banks, incumbents, mobile capital, voters/labor) and ask:
-- Who must **cooperate** for this thesis to play out?
-- Who gets **crushed**, and what defensive/retaliatory tools do they actually control?
-- Where is the **bottleneck** (energy, liquidity, enforcement, legitimacy, physics)?
+### 2. 看看局里的人各自图什么
+把相关的几方人马列出来（比如普通人、大公司、银行、政府、手里有活钱的人），问两个实在问题：
+- 你的结论要想成真，**哪几方必须配合**？
+- 谁会因为这个变化**利益受损**？他们手里有什么牌可以反击、拖延或改规则？
 
-### 3. Run Three Stress Lenses
-Probe the thesis against:
-1. **Megapolitical Inversion**: What if technology or enforcement costs shift the opposite way from what the thesis assumes?
-2. **Liquidity / Tail-Risk Shock**: Even if the long-term direction is right, what happens during an acute deflationary/liquidity squeeze or regulatory freeze along the path? (Path-dependency kills leveraged or illiquid theses.)
-3. **Historical Counter-Example**: Cite one concrete historical case where similar premises led to a *different* outcome, and explain the decisive variable.
+### 3. 用三个角度“撞一撞”这个观点
+用日常语言从三个方向测试它够不够硬：
+1. **前提反过来会怎样？**：如果技术、政策或成本的变化方向和你想的刚好相反呢？
+2. **半路突然缺钱/卡死怎么办？**：就算大方向长期是对的，如果中间突然遇到现金枯竭、流动性危机或一刀切管制，这个逻辑还能撑过那段时间吗？
+3. **历史上有没有反例？**：举一个历史上条件很像、但结果完全不一样的具体例子，说说当时是哪个关键变量扭转了局面。
 
-### 4. Demand Falsifiers & Return the Ball
-Identify the **single weakest link** in the user's causal chain and ask the user:
-1. How do you defend that weak link?
-2. What **observable falsifier** (a specific metric, policy action, or market signal within a defined horizon) would make you abandon or revise this thesis?
+### 4. 把球踢回给用户
+挑出整个逻辑链里**最容易断掉的那一环**，问用户两个问题：
+1. 你觉得这一环为什么不会断？
+2. 未来几个月或几年里，如果现实中出现了**什么具体信号**，你会承认自己可能想错了、需要推翻这个判断？

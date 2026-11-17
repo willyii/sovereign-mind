@@ -1,12 +1,12 @@
 {
   "name": "sovereign-mind",
-  "displayName": "Sovereign Mind",
-  "version": "0.1.0",
-  "description": "Train first-principles megapolitical deduction, historical pattern synthesis, and extreme-scenario stress testing inspired by William Rees-Mogg and James Dale Davidson.",
+  "displayName": "主权思维训练 (Sovereign Mind)",
+  "version": "0.2.0",
+  "description": "用大白话和苏格拉底式提问，带你基于前提假设做深度逻辑推演、历史背景对照与极端场景练习，灵感来自《主权个人》与《血流成河》。",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
-    "Start a megapolitical deductive drill on an extreme scenario",
-    "Compare a current macro or tech shift to a historical inflection point",
-    "Stress-test my thesis for blind spots, incentives, and second-order effects"
+    "给我出个前提假设，带我做一轮极端场景推演",
+    "用历史上的真实拐点考考我，顺便讲讲当时的背景",
+    "帮我挑挑我这个观点的毛病，看看哪里经不起推敲"
   ]
 }

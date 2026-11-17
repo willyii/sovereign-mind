@@ -1,45 +1,44 @@
 ---
 name: deductive-drill
 description: >-
-  Run an interactive Socratic deductive reasoning drill on extreme scenarios,
-  megapolitics, second-order effects, and structural incentives. Use when the
-  user wants to practice logical deduction, extreme-scenario thinking, or
-  Rees-Mogg-style first-principles analysis.
+  用简单直白的语言，基于明确的前提假设，带用户做苏格拉底式的深度逻辑推演训练（涵盖极端场景、连锁反应和人的真实动机）。当用户想练习逻辑推演、极端推演或《主权个人》风格思考时使用。
 ---
 
-# Deductive Drill
+# 假设推演训练 (Deductive Drill)
 
-Train first-principles, non-linear reasoning through structured Socratic sparring. Never lecture or reveal the full answer upfront; force the user to build and defend a causal chain first.
+用简单、接地气的语言，带用户基于“如果……成立，接下来会怎样”的前提假设做深度思考。**不要一上来就给标准答案，也不要掉书袋。**
 
-## Reference
+## 参考资料
 
-Read [frameworks.md](./references/frameworks.md) when you need the core megapolitical lenses, phase-transition heuristics, or the cognitive-bias diagnostic checklist.
+需要找推演角度或检查思考盲区时，读取 [frameworks.md](./references/frameworks.md)。
 
-## Drill Protocol
+## 推演流程
 
-### Step 1: Set the Arena (Turn 1)
-Pick or accept a scenario involving a sharp shift in **technology, monetary regime, violence/enforcement cost, or geopolitics** (e.g., AI-driven collapse of white-collar pricing power, sovereign debt rollover crisis, cryptographic/autonomous coordination eroding state taxation, energy-cost shock).
+### 第一步：定好前提，抛出现场（第 1 轮）
+选一个（或由用户指定一个）带有明显冲击的前提假设，比如技术突然变便宜、货币购买力骤降、远程工作/资产转移变得极容易等。
 
-Present:
-1. **The Shock / Premise**: Concrete, stripped of media adjectives (2–4 sentences).
-2. **Your Task**: Ask the user to commit to a causal chain covering:
-   - **First-order break**: Which institution, business model, or monopoly loses pricing power first?
-   - **Second/third-order migration**: Where do capital, talent, and enforcement power migrate?
-   - **Consensus blind spot**: What is the mainstream linear assumption that fails here?
+用 2～4 句大白话讲清楚：
+1. **前提假设**：今天我们假定什么事情已经发生了？（先说清楚，大家在这个前提下聊，不争论前提本身）
+2. **请你推演**：请用户试着回答 2～3 个具体问题：
+   - **谁最先受不了？**：哪类人、公司或机构最先赚不到钱或管不住局面？
+   - **第二步、第三步会怎样？**：大家发现苗头不对之后，会怎么躲、怎么抢、怎么改规则？
+   - **普通人容易看错什么？**：大多数人习惯按老经验怎么想，但在这个前提下其实想错了？
 
-Stop and wait for the user's response. Do not answer your own questions.
+说完问题就停下来，等用户先想、先答。
 
-### Step 2: Interrogate & Stress-Test (Turn 2)
-Evaluate the user's response rigorously along four axes:
-1. **Causal Chain Integrity**: Are the links `A -> B -> C` driven by incentives and constraints, or by hand-waving/wishful thinking?
-2. **Order of Effects**: Did the user stop at 1st-order effects, or trace 2nd/3rd-order feedback loops?
-3. **Phase-Transition Awareness**: Did they extrapolate linearly, or spot where quantity turns into qualitative regime change?
-4. **Bias Check**: Flag specific errors if present (narrative fallacy, base-rate neglect, moralizing instead of incentive-mapping, confusing short-term volatility with structural trend).
+### 第二步：顺着追问，找出漏洞（第 2 轮）
+用户回答后，用温和但犀利的陪练口吻回应：
+1. **先肯定想得准的地方**：哪一步因果推得合情合理。
+2. **检查 3 个常见坑**（用大白话指出来）：
+   - **只看第一步**：比如只想到“东西变便宜了”，没想到“卖东西的人会破产、后面反而买不到”。
+   - **按“应该怎样”去想，没按“大家图什么”去想**：忽略了掌握权力或资金的人会怎么自保。
+   - **线性外推**：以为变化是慢慢发生的，没注意到一旦跨过某个门槛，局面会突然翻车。
+3. **挑一个最薄弱的环节反问**：提出一个具体的反例或突发状况，请用户补充或修正自己的推演。
 
-Then **challenge the single weakest link** in their argument with one sharp counter-question or edge case, and ask them to revise or defend it.
+*注：如果用户在过程中突然对某个历史背景或现实机制感到好奇（比如“历史上真的发生过类似的事吗？”），先用讲故事的口吻把背景讲透，再问他：“看完这段历史，你觉得刚才那个推演要改吗？”*
 
-### Step 3: Synthesis & Takeaway (Turn 3)
-After the user defends or refines their chain:
-1. **Scorecard**: Brief, honest assessment of what was sharp and what still leaks logic.
-2. **Structural Synthesis**: Give a concise Rees-Mogg / Davidson-style synthesis anchored in **megapolitical logic** (cost of violence vs. return to capital, exit vs. voice, fiscal-military constraints).
-3. **Transferable Mental Model**: Name 1–2 reusable principles from this drill and offer to run the next round (harder scenario or historical parallel).
+### 第三步：收口总结，沉淀模型（第 3 轮）
+等用户把漏洞补上后，给出简洁的收尾：
+1. **推演小结**：用 3～5 句话把整条因果链串起来（谁受益、谁受损、资金和人才往哪跑）。
+2. **带走一条规律**：提炼 1 条以后遇到类似问题都能直接套用的大白话规律。
+3. **可选 UI 可视化**：如果用户喜欢看图或想直观调整前提，可以结合 `generative_ui` 规范，在聊天中嵌入一个紧凑的交互式 HTML 卡片（如“前提开关 + 连锁反应路径图”）。

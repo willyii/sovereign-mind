@@ -1,28 +1,28 @@
-# Curated Historical Inflection Points
+# 经典历史拐点库（大白话版）
 
-Use these cases for blind-spot simulations and structural analogy testing.
+用于盲测推演、古今对比和随时科普历史背景。
 
-## 1. Printing Press & Reformation (1450s–1550s)
-- **Variables**: ~90%+ collapse in text reproduction cost; vernacular literacy; fragmented European geography; Church fiscal/information monopoly.
-- **Mechanism**: Information monopoly breaks → legitimacy and tax flows (tithes, indulgences) fragment → local princes arbitrage the split to seize Church lands and centralize territorial states.
-- **Key Lesson**: Lowering information cost first *destabilizes* incumbent hierarchies before forming a new equilibrium.
+## 1. 印刷术与欧洲宗教改革（1450s–1550s）
+- **当时什么处境**：以前抄一本书贵得要死，知识、解释权和很多税费都捏在教会手里。突然出了活字印刷，印书成本暴跌九成以上，普通人也能看懂本地语言的小册子了。
+- **发生了什么**：信息垄断一破，各种质疑声音几天就能传遍半个欧洲；地方上的诸侯趁机脱离教会控制、顺便没收教会土地，欧洲反而从“大一统宗教秩序”裂变成了各自为政的领土国家。
+- **可以带走的规律**：信息成本突然暴跌时，最先倒霉的不是小人物，而是靠“垄断解释权和信息差”吃饭的大机构。
 
-## 2. Late Roman Republic / Principate Fiscal-Military Transition (133 BCE–14 CE & 3rd Century Crisis)
-- **Variables**: Conscription-farmer base eroded by slave-plantation consolidation; legions loyal to paying generals rather than Senate; later 3rd-century debasement of the denarius.
-- **Mechanism**: Tax base shrinks while frontier defense costs rise → currency debasement → tax-in-kind / feudalization (coloni tied to land) as monetary exchange breaks down.
-- **Key Lesson**: Monetary debasement is a symptom of fiscal-military insolvency, not an isolated monetary error.
+## 2. 罗马共和国晚期到三世纪危机（钱不够花与货币注水）
+- **当时什么处境**：早期罗马靠自耕农当兵打仗，后来有钱人用奴隶大庄园把自耕农挤破产了，军队变成只认发钱将军的雇佣兵。到了三世纪，边境要一直花大钱打仗，但能收上来的税越来越少。
+- **发生了什么**：皇帝没钱发军饷，只好往银币里掺铜（货币贬值）。结果物价飞涨、大家不认钱只认粮食，最后庄园主干脆自己养兵收留破产农民——欧洲慢慢滑进了“封建庄园时代”。
+- **可以带走的规律**：货币疯狂贬值，表面上是钱印多了，根子上往往是“要养的摊子太大、收不上真税了”。
 
-## 3. Gunpowder & Rise of the Fiscal-Military State (15th–17th Century Europe)
-- **Variables**: Siege cannon makes feudal stone castles obsolete; standing armies require continuous credit, not seasonal vassal levies.
-- **Mechanism**: Scale advantage shifts to states that can tax liquid commerce and issue credible long-term debt (Dutch Republic, England after 1688).
-- **Key Lesson**: Military technology dictates optimal state size and financial institutions.
+## 3. 火药大炮与现代国家的诞生（15～17 世纪欧洲）
+- **当时什么处境**：以前贵族修个石头城堡就能占山为王，国王也拿他没办法。后来有了能轰碎城墙的攻城大炮，小城堡没用了，打仗变成必须常年养职业军队、天天烧钱的重资产游戏。
+- **发生了什么**：小领主玩不起了，只有能收商业税、还能长期借到钱的国家（比如后来的荷兰和英国）才撑得住。大炮把零碎的封建领地整合成了现代民族国家。
+- **可以带走的规律**：武器和生产工具变了，最适合生存的组织大小也会跟着变。
 
-## 4. 1920s Credit Boom → 1929–1933 Deflationary Bust & Gold-Standard Break
-- **Variables**: Gold-exchange standard rigidity, war debts/reparations, margin leverage, industrial overcapacity, tariff retaliation (Smoot-Hawley).
-- **Mechanism**: Debt-deflation spiral (Irving Fisher) forces sovereigns to choose between domestic banking collapse and abandoning the gold peg; those who devalue earliest recover fastest.
-- **Key Lesson**: Rigid monetary pegs transmit deflationary shocks until political pain forces exit.
+## 4. 1929 年大萧条与放弃金本位（1929–1933）
+- **当时什么处境**：一战后大家债台高筑，各国还死守“货币必须按固定比例换黄金”的规矩，同时加关税互相卡脖子。
+- **发生了什么**：资产价格一跌，大家抢着还债和换现金，越还钱越少、物价越跌、工厂越倒闭（通缩螺旋）。死守黄金的国家经济越陷越深；反而是早早放弃金本位、允许货币贬值的国家（比如英国）先缓过气来。
+- **可以带走的规律**：死规则遇上大危机时，谁先扛不住政治压力、谁就先改规则。
 
-## 5. End of Bretton Woods & 1970s Stagflation (1965–1982)
-- **Variables**: Triffin dilemma, Vietnam/Great Society fiscal expansion, demographic bulge, oil supply shock, floating fiat transition.
-- **Mechanism**: Realizing negative real rates transfers wealth from bondholders to debtors/hard assets until Volcker-style rate shock restores monetary credibility at severe recession cost.
-- **Key Lesson**: Watch the **fiscal-monetary nexus** and energy constraints together, not CPI in isolation.
+## 5. 1970 年代滞胀与布雷顿森林体系解体（1965–1982）
+- **当时什么处境**：美国既要打越战又要搞国内福利，印了太多美元，全世界拿美元找美国换黄金，美国黄金库存见底了。1971 年干脆宣布美元不换黄金，紧接着中东石油禁运、油价暴涨。
+- **发生了什么**：物价飞涨但经济停滞，拿固定利息债券的人实际购买力被悄悄抹掉，直到后来美联储把利率拉到极高（引发严重衰退）才压住通胀。
+- **可以带走的规律**：看懂通胀和危机，不能只盯物价数字，得把“政府花钱缺口 + 能源供应 + 货币信誉”放一起看。

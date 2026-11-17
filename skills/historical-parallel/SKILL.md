@@ -1,34 +1,33 @@
 ---
 name: historical-parallel
 description: >-
-  Train historical pattern recognition and structural analogy testing by
-  comparing modern inflection points to historical regime shifts, including
-  blind-spot prediction drills and boundary-condition checks. Use when the user
-  wants to build historical depth, study cycles, or test whether a historical
-  analogy actually holds.
+  用大白话带用户做历史背景探索、历史拐点盲测和古今对比，看看哪些规律真的能套用、哪些地方其实不一样。当用户想积累历史知识、好奇某个时代背景或想拿历史类比今天时使用。
 ---
 
-# Historical Parallel Lab
+# 历史对照与推演实验室 (Historical Parallel)
 
-History does not repeat verbatim, and superficial analogies ("Rome fell, so X will fall") are intellectually lazy. Train the user to extract **structural mechanisms** and test **boundary conditions**.
+历史不会一模一样重演，但人的处境和算盘往往很像。这里不背年份和人名，而是通过**讲清真实背景 + 动手推演 + 找古今差异**，把历史变成你的思考底牌。
 
-## Reference
+## 参考资料
 
-Read [case-catalog.md](./references/case-catalog.md) for curated historical inflection points and their underlying megapolitical variables.
+需要挑选经典历史拐点或查底层背景时，读取 [case-catalog.md](./references/case-catalog.md)。
 
-## Two Training Modes
+## 三种互动玩法
 
-Choose the mode that fits the user's prompt (default to **Blind-Spot Simulation** when they ask for a general historical drill).
+根据用户的提问方式灵活切换（如果用户只是说“用历史考考我”，默认用**玩法 A**）：
 
-### Mode A: Blind-Spot Simulation (Prediction Before Hindsight)
-1. Pick a historical inflection point from `case-catalog.md` (or another decisive turning point) and describe the **structural setup right before the break** — fiscal load, technology shock, class/elite incentives, monetary constraint — **without** giving away the outcome (optionally anonymize names/dates if the user wants pure structural deduction).
-2. Ask the user:
-   - What is the dominant consensus belief of elites at that moment?
-   - Which constraint breaks first, and how do actors respond?
-3. Wait for the user's answer. Then compare their deduction to what actually happened, highlighting **why** incentives resolved that way and what surprised contemporaries.
+### 玩法 A：历史拐点盲测（先推演，再揭晓）
+1. 从 `case-catalog.md`（或用户感兴趣的时代）选一个关键转折点，用通俗的话讲清楚**转折发生前夕的真实处境**：钱怎么花、税怎么收、新技术是什么、各方势力图什么。**先隐去结局**（也可以暂时隐去朝代和人名，免得被记忆剧透）。
+2. 问用户两个问题：
+   - 当时的既得利益者或大多数人，为什么觉得“一切还能照旧”？
+   - 哪根弦会最先断掉？接下来大概率会怎么演？
+3. 等用户答完，再揭晓真实结局，对比“他想到的”和“历史上真正发生的”，顺便把那段历史的前因后果讲透。
 
-### Mode B: Analogy Stress-Test (Comparing Present to Past)
-When the user proposes (or asks for) a historical parallel to a modern phenomenon:
-1. **Structural Match**: Identify the shared underlying mechanism (e.g., information-cost collapse, fiscal-military overextension, currency debasement, elite overproduction).
-2. **Boundary-Condition Audit**: Force at least **2–3 critical differences** (energy density, demographic pyramid, capital mobility, communication speed, nuclear deterrence, reserve-currency plumbing) that alter the outcome or timeline.
-3. **Challenge Question**: Ask the user which difference matters most and whether it *accelerates*, *dampens*, or *inverts* the historical outcome.
+### 玩法 B：古今对比体检（找相似，更要找不同）
+当用户（或你）拿某段历史和今天做对比时（比如“AI 就像当年的印刷术”）：
+1. **哪里真的像**：指出两件事背后共同的底层逻辑（比如信息成本暴跌、财政入不敷出、中间商被跳过）。
+2. **哪里关键不一样**：逼自己找出 **2～3 个现实差异**（比如今天资金跑得比以前快得多、人口结构倒过来了、信息传播是秒级的）。
+3. **反问用户**：这几个不一样的地方，会让结局变得**更快、更缓，还是完全反过来**？
+
+### 玩法 C：历史背景随时科普
+只要用户对某个历史细节、时代背景或人物动机产生好奇，**先停下推演，用讲故事的大白话把来龙去脉讲清楚**（比如“罗马当时为什么发不出军饷？”“1929 年大家为什么突然挤兑银行？”），满足好奇心后，再自然问一句：“了解了这段背景，你觉得这对我们刚才聊的问题有什么启发？”

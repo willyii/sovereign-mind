@@ -1,28 +1,25 @@
-# Megapolitical & Deductive Frameworks
+# 接地气的推演思考工具箱
 
-Reference lenses for diagnosing scenarios and grading user reasoning.
+用简单直白的方式拆解《主权个人》和《血流成河》背后的核心逻辑。
 
-## 1. Core Megapolitical Variables (Davidson & Rees-Mogg)
-Power follows the underlying physics of **violence, geography, energy, and information**, not legal fictions:
-- **Return on Violence**: Does new technology make offense/extraction cheaper or defense/exit cheaper?
-  - Cheap offense/centralized bottleneck → larger, more extractive states or empires.
-  - Cheap defense/cryptographic or mobile assets → fragmentation, smaller jurisdictions, higher bargaining power for mobile capital and talent.
-- **Taxation as Protection Rent**: States are stationary bandits competing for mobile tax bases. When exit costs drop below tax burdens, fiscal crises follow.
-- **Information & Transaction Costs**: When information costs collapse (printing press, internet, AI), intermediary monopolies (clergy, guilds, legacy media, middle-management bureaucracies) lose their moat.
+## 1. 看懂权力和钱到底跟谁走
+别只看新闻口号和法律条文，看底下这 4 个硬条件：
+- **谁更容易保护自己，谁就更有底气**：如果新技术让普通人更容易把钱和本事带走（或者藏起来），收税和管人就会变难，个人议价能力上升；反过来，如果只有大机构能用得起新技术，权力就会更集中。
+- **收税就像收“保护费”**：机构需要稳定的地盘收钱。一旦大家“用脚投票”搬走的成本比交税还低，原本的财政盘子就会出问题。
+- **信息变便宜，中间商就危险**：每当复制和传播信息变得极度便宜（比如当年的印刷术、后来的互联网、现在的 AI），靠“信息差”和“把关”吃饭的中间层（老派机构、繁琐流程、普通白领中介）最先丢掉饭碗。
 
-## 2. Second- and Third-Order Tracing
-Never stop at `Event -> Immediate Winner/Loser`:
-- **1st Order**: Direct price/cost change.
-- **2nd Order**: Behavioral adaptation (hoarding, capital flight, regulatory retaliation, substitution).
-- **3rd Order**: Institutional breakdown or reconfiguration (new equilibrium, debt monetization, jurisdictional arbitrage).
+## 2. 往后多想两步（连锁反应）
+别停在“A 发生了，所以 B 发生了”：
+- **第一步（直接变化）**：成本、价格或规则刚一变动，谁直接多赚了或亏了？
+- **第二步（人的反应）**：吃亏的人不会坐着挨打，赚钱的人也会蜂拥而入——人们会怎么囤货、换赛道、搬家、或者出新规定堵漏洞？
+- **第三步（新局面）**：大家都折腾完一轮之后，旧规则还撑得住吗？会不会出现全新的玩法？
 
-## 3. Phase Transitions vs. Linear Extrapolation
-- Systems absorb stress linearly until a **threshold** (collateral haircut, reserve depletion, legitimacy collapse, energy EROI cliff) is crossed, after which behavior becomes non-linear (bank runs, currency flight, sudden political realignment).
-- Always ask: *"At what quantitative level does the qualitative rule of the game change?"*
+## 3. 什么时候会“突然翻脸”（临界点）
+很多事情平时看着风平浪静，其实一直在攒压力。只要跨过某个门槛（比如银行现金不够兑付、债滚不动了、大家都不信某个承诺了），就会从“慢慢变坏”变成“一夜之间换规则”。
+常问自己一句：**“数量攒到多少的时候，游戏规则本身会变？”**
 
-## 4. Common Reasoning Traps to Flag
-- **Moralizing**: Judging what *should* happen instead of modeling what actors are *incentivized* to do.
-- **Linear Bias**: Assuming tomorrow's growth/inflation/stability rate looks like the last 10 years.
-- **Narrative Fallacy**: Mistaking a clean media story for a causal mechanism.
-- **Static Equilibrium**: Forgetting that participants react to the very policy or trend you are analyzing.
-- **Consensus Anchoring**: Treating the current institutional order as permanent rather than historically rare.
+## 4. 最容易踩的 4 个思考坑
+- **用“好坏对错”代替“利益计算”**：别问“他们怎么能这么干”，要问“站在他们的位子上，这么干是不是最划算”。
+- **拿过去 10 年当永远**：把和平、低通胀或某个行业赚钱当成天经地义。
+- **听故事当真**：媒体给的解释往往是为了好听，不一定是真正的原因。
+- **忘了对手也会还手**：以为自己想出一个招，别人就会站在原地不动。

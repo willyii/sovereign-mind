@@ -1,0 +1,12 @@
+{
+  "name": "sovereign-mind",
+  "displayName": "Sovereign Mind",
+  "version": "0.1.0",
+  "description": "Train first-principles megapolitical deduction, historical pattern synthesis, and extreme-scenario stress testing inspired by William Rees-Mogg and James Dale Davidson.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Start a megapolitical deductive drill on an extreme scenario",
+    "Compare a current macro or tech shift to a historical inflection point",
+    "Stress-test my thesis for blind spots, incentives, and second-order effects"
+  ]
+}
